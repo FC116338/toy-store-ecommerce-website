@@ -558,15 +558,24 @@ object-fit:cover;
     align-items: center;
 }
 
-.footer-menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
+.menu a{
+    text-decoration: none;
+    color: rgb(19, 83, 92);
+    font-weight: 600;
+    margin: 0 20px;
+    font-size: 16px;
+    transition: 0.3s;
 }
 
-.footer-menu li {
-    cursor: pointer;
+.menu a i{
+    margin-right: 6px;
+}
+
+.menu a:hover{
+    color: rgb(0, 0, 0);
+    background: #ffffff;
+    padding: 8px 15px;
+    border-radius: 20px;
 }
 
 .social-icons {
@@ -688,4 +697,5 @@ object-fit:cover;
         text-align: center;
     }
 }
+
 
